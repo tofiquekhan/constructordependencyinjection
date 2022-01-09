@@ -4,11 +4,25 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
  http://www.springframework.org/schema/beans/spring-beans.xsd">
  
- <bean id="courseBean" class="myproject.constructordepeninjection.beans.Course">
+<bean id="courseBean1" class="myproject.constructordepeninjection.beans.Course"/>
+ <bean id="courseBean2" class="myproject.constructordepeninjection.beans.Course">
+ <constructor-arg value="C-111"/>
+ </bean>
+<bean id="courseBean3" class="myproject.constructordepeninjection.beans.Course">
  <constructor-arg value="C-111"/>
  <constructor-arg value="Java Spring Framework"/>
- <constructor-arg value="5000"/>
+ </bean>
  
+ 
+ 
+ 
+ 
+ <bean id="courseBean4" class="myproject.constructordepeninjection.beans.Course">
+ <constructor-arg value="C-111"/>
+ <constructor-arg value="Java Spring Framework"/>
+
+ <constructor-arg value="5000"/>
+
  
  </bean>
  
