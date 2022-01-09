@@ -6,16 +6,7 @@ public class Course {
 	private String cname;
 	private int cost;
 	
-	public Course() {
-		super();
-		System.out.println("0-args Constructor");
-	}
-	
-	public Course(String cid) {
-		super();
-		System.out.println("1-args Constructor");
-		this.cid = cid;
-	}
+
 	
 	public Course(String cid, String cname) {
 		super();
@@ -24,14 +15,6 @@ public class Course {
 		this.cname = cname;
 	}
 
-	
-	public Course(String cid, String cname, int cost) {
-		super();
-		System.out.println("3-args Constructor");
-		this.cid = cid;
-		this.cname = cname;
-		this.cost = cost;
-	}
 
 	public void getCourseDetails() {
 		System.out.println("Course Details");

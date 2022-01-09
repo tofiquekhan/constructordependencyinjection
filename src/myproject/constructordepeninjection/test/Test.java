@@ -9,14 +9,9 @@ public class Test {
 
 	public static void main(String[] args) {
 		ApplicationContext context = new ClassPathXmlApplicationContext("/myproject/constructordepeninjection/resources/applicationContext.xml");
-		Course courseBean1 = (Course) context.getBean("courseBean1");
-		courseBean1.getCourseDetails();
-		Course courseBean2 = (Course) context.getBean("courseBean2");
-		courseBean2.getCourseDetails();
-		Course courseBean3 = (Course) context.getBean("courseBean3");
-		courseBean3.getCourseDetails();
-		Course courseBean4 = (Course) context.getBean("courseBean4");
-		courseBean4.getCourseDetails();
+		
+		Course courseBean = (Course) context.getBean("courseBean");
+		courseBean.getCourseDetails();
 
 
 	}
