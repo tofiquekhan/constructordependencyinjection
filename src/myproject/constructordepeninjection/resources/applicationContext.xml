@@ -8,6 +8,7 @@
 	<bean id="courseBean"
 		class="myproject.constructordepeninjection.beans.Course">
 		<constructor-arg value="5000"  type="int"/>
+		<constructor-arg value="Java" type="String" index="1"/>
 		<constructor-arg value="C-111"  type="String"/>
 		
 	</bean>
