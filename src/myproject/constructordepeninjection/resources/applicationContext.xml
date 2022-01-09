@@ -7,8 +7,8 @@
 	
 	<bean id="courseBean"
 		class="myproject.constructordepeninjection.beans.Course">
-		<constructor-arg value="Java Spring Framework" index="1"/>
-		<constructor-arg value="C-111" index="0"/>
+		<constructor-arg value="5000"  type="int"/>
+		<constructor-arg value="C-111"  type="String"/>
 		
 	</bean>
 

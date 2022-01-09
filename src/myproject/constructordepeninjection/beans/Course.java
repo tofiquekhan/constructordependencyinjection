@@ -8,11 +8,11 @@ public class Course {
 	
 
 	
-	public Course(String cid, String cname) {
+	public Course(String cid, int cost) {
 		super();
 		System.out.println("2-args Constructor");
 		this.cid = cid;
-		this.cname = cname;
+		this.cost = cost;
 	}
 
 
